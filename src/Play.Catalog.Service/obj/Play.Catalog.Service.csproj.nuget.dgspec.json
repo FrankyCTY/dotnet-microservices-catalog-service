@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj": {}
+  },
+  "projects": {
+    "/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj",
+        "projectName": "Play.Catalog.Service",
+        "projectPath": "/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj",
+        "packagesPath": "/home/tak/.nuget/packages/",
+        "outputPath": "/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tak/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "/home/tak/ownDev/Play/packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Play.Common": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

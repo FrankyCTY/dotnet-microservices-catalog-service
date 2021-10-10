@@ -4,14 +4,14 @@
     "/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj": {}
   },
   "projects": {
-    "/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj": {
+    "/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Contracts/Play.Catalog.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj",
-        "projectName": "Play.Catalog.Service",
-        "projectPath": "/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj",
+        "projectUniqueName": "/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Contracts/Play.Catalog.Contracts.csproj",
+        "projectName": "Play.Catalog.Contracts",
+        "projectPath": "/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Contracts/Play.Catalog.Contracts.csproj",
         "packagesPath": "/home/tak/.nuget/packages/",
-        "outputPath": "/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Service/obj/",
+        "outputPath": "/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Contracts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/tak/.nuget/NuGet/NuGet.Config"
@@ -38,10 +38,67 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj",
+        "projectName": "Play.Catalog.Service",
+        "projectPath": "/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj",
+        "packagesPath": "/home/tak/.nuget/packages/",
+        "outputPath": "/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tak/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "/home/tak/ownDev/Play/packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Contracts/Play.Catalog.Contracts.csproj": {
+                "projectPath": "/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Contracts/Play.Catalog.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Play.Common": {
               "target": "Package",
-              "version": "[1.0.0, )"
+              "version": "[1.1.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

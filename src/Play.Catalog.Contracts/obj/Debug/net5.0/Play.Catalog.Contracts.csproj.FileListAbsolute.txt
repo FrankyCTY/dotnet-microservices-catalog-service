@@ -1,0 +1,12 @@
+/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Contracts/bin/Debug/net5.0/Play.Catalog.Contracts.deps.json
+/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Contracts/bin/Debug/net5.0/Play.Catalog.Contracts.dll
+/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Contracts/bin/Debug/net5.0/ref/Play.Catalog.Contracts.dll
+/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Contracts/bin/Debug/net5.0/Play.Catalog.Contracts.pdb
+/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Contracts/obj/Debug/net5.0/Play.Catalog.Contracts.csproj.AssemblyReference.cache
+/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Contracts/obj/Debug/net5.0/Play.Catalog.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Contracts/obj/Debug/net5.0/Play.Catalog.Contracts.AssemblyInfoInputs.cache
+/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Contracts/obj/Debug/net5.0/Play.Catalog.Contracts.AssemblyInfo.cs
+/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Contracts/obj/Debug/net5.0/Play.Catalog.Contracts.csproj.CoreCompileInputs.cache
+/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Contracts/obj/Debug/net5.0/Play.Catalog.Contracts.dll
+/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Contracts/obj/Debug/net5.0/ref/Play.Catalog.Contracts.dll
+/home/tak/ownDev/Play/Play.Catalog/src/Play.Catalog.Contracts/obj/Debug/net5.0/Play.Catalog.Contracts.pdb
